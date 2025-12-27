@@ -24,7 +24,7 @@ from typing import Dict, Iterable, List, Tuple
 CONFIG: Dict[str, object] = {
     # Core generation settings
     "seed": 42,  # Reproducibility
-    "total_events": 1000,
+    "total_events": 10000,
     "benign_ratio": 0.8,  # 0.70 - 0.85 recommended
     "split_by_scenario": False,
     "output_dir": "data",
@@ -454,6 +454,9 @@ def write_events(path: str, events: Iterable[Dict[str, object]]) -> int:
 
 def ensure_output_dir() -> str:
     out_dir = str(CONFIG["output_dir"])
+    if not os.path.isabs(out_dir):
+        base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+        out_dir = os.path.join(base_dir, out_dir)
     os.makedirs(out_dir, exist_ok=True)
     return out_dir
 
