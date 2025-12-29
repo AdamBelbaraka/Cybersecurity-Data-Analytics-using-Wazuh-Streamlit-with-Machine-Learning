@@ -128,34 +128,34 @@ def infer_attack_type(
 def print_summary(df: pd.DataFrame, severity_missing: int) -> None:
     total = len(df)
     severity_counts = df["severity"].value_counts(dropna=False)
-    unknown_pct = (df["attack_type"].eq("UNKNOWN").mean() * 100) if total else 0.0
+    # unknown_pct = (df["attack_type"].eq("UNKNOWN").mean() * 100) if total else 0.0
 
     logging.info("Rows: %s", total)
     logging.info("Severity distribution:\n%s", severity_counts.to_string())
     logging.info("Severity missing levels defaulted to '%s': %s", DEFAULT_SEVERITY, severity_missing)
-    logging.info("Attack type UNKNOWN: %.2f%%", unknown_pct)
+    # logging.info("Attack type UNKNOWN: %.2f%%", unknown_pct)
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Label Wazuh logs with severity and attack_type.")
+    parser = argparse.ArgumentParser(description="Label Wazuh logs with severity.")
     parser.add_argument(
         "--input",
         type=Path,
         default=None,
-        help="Input CSV path (default: trainingWorkflow/data/last_wazuh.csv).",
+        help="Input CSV path (default: trainingWorkflow/data/wazuh_log.csv).",
     )
     parser.add_argument(
         "--output",
         type=Path,
         default=None,
-        help="Output CSV path (default: trainingWorkflow/data/labeled_logs.csv).",
+        help="Output CSV path (default: trainingWorkflow/data/wazuh_log.csv).",
     )
-    parser.add_argument(
-        "--mitre-threshold",
-        type=float,
-        default=MITRE_SIM_THRESHOLD,
-        help="Cosine similarity threshold for inferred MITRE mapping.",
-    )
+    # parser.add_argument(
+    #     "--mitre-threshold",
+    #     type=float,
+    #     default=MITRE_SIM_THRESHOLD,
+    #     help="Cosine similarity threshold for inferred MITRE mapping.",
+    # )
     return parser.parse_args()
 
 
@@ -165,7 +165,7 @@ def main() -> None:
 
     base_dir = Path(__file__).resolve().parents[1]
     input_path = args.input or (base_dir / "data" / "last_wazuh.csv")
-    output_path = args.output or (base_dir / "data" / "labeled_logs.csv")
+    output_path = args.output or (base_dir / "data" / "wazuh_logs.csv")
 
     if not input_path.exists():
         raise FileNotFoundError(f"Input file not found: {input_path}")
@@ -173,7 +173,7 @@ def main() -> None:
     logging.info("Loading %s", input_path)
     df = pd.read_csv(input_path, low_memory=False)
 
-    text_global = build_text_global(df, TEXT_COLUMNS)
+    # text_global = build_text_global(df, TEXT_COLUMNS)
 
     if "rule.level" in df.columns:
         severity, missing_count = map_severity(df["rule.level"])
@@ -184,19 +184,19 @@ def main() -> None:
 
     df["severity"] = severity
 
-    attack_type, scores, avg_score = infer_attack_type(
-        df,
-        text_global=text_global,
-        mitre_col="rule.mitre.id",
-        threshold=args.mitre_threshold,
-    )
-    df["attack_type"] = attack_type
+    # attack_type, scores, avg_score = infer_attack_type(
+    #     df,
+    #     text_global=text_global,
+    #     mitre_col="rule.mitre.id",
+    #     threshold=args.mitre_threshold,
+    # )
+    # df["attack_type"] = attack_type
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(output_path, index=False)
 
     logging.info("Saved labeled dataset to %s", output_path)
-    logging.info("Average inferred similarity score (missing mitre): %.4f", avg_score)
+    # logging.info("Average inferred similarity score (missing mitre): %.4f", avg_score)
     print_summary(df, missing_count)
 
 

@@ -40,3 +40,5 @@ Notes
 - The pipeline is robust to missing columns in input CSVs.
 - Timestamp features: hour, dayofweek, month.
 - Text features are built from available columns (rule.description, raw, commandLine, location, etc.).
+
+
