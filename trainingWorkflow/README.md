@@ -1,112 +1,42 @@
-## Comme l’architecture Wazuh n’est pas encore totalement prête, je vais d’abord travailler avec des logs simulés qui respectent le plus possible le format des logs réels afin de développer toute la chaîne ML dès maintenant. Concrètement, je vais préparer un dataset, construire et entraîner un modèle de classification capable de prédire la sévérité des événements et le type d’attaque, puis sauvegarder le modèle et le preprocessing
+# Training workflow
 
+This workflow builds labels from Wazuh logs, trains two models (severity and attack_type),
+and generates predictions from raw logs.
 
+Prerequisites
+- Python 3.9+
+- pandas, numpy, scikit-learn, joblib
+- Optional: xgboost, lightgbm, imbalanced-learn
 
+Step 1 - Build labeled dataset
+```bash
+python scripts/build_labeled_dataset.py --input data/last_wazuh.csv --output data/labeled_logs.csv
+```
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-PIPELINE D’APPRENTISSAGE
-(ON OUBLIE LA PREDICTION POUR LE MOMENT)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+What it does
+- Adds severity from rule.level (configurable in the script)
+- Uses rule.mitre.id when present, otherwise infers the closest MITRE id by TF-IDF similarity
+- Writes data/labeled_logs.csv and prints a summary (rows, severity distribution, UNKNOWN rate)
 
-✅ Objectif
-Mettre en place un pipeline complet d’apprentissage ML capable de prédire
-1 la sévérité des logs (critical, high, medium, low)
-2 le type d’attaque (ddos, privilege escalation, phishing, brute force, normal)
+Step 2 - Train models (notebook)
+- Open and run: notebooks/preprocessing.ipynb
+- The notebook performs EDA, builds a robust preprocessing pipeline, trains and evaluates models,
+  and exports artifacts to models/
+- Saved files:
+  - models/severity_model.joblib
+  - models/attack_type_model.joblib
+  - models/metadata.json
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🟦 ETAPE 1 — GENERATION / CONSTRUCTION DU DATASET
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🎯 But
-Créer des logs simulés au format Wazuh (structure complète) afin de commencer sans l’architecture
+Step 3 - Predict on raw logs
+```bash
+python scripts/predict.py --input data/last_wazuh.csv --output data/predictions.csv
+```
 
-📥 Entrée
-Générateur de logs simulés (JSONL)
+Output columns
+- severity_pred, attack_type_pred
+- severity_score and attack_type_score when probabilities or decision scores are available
 
-📤 Sortie
-data/logs_simules.jsonl
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🟨 ETAPE 2 — DEFINIR LES LABELS
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🎯 But
-Créer les cibles du modèle
-
-🏷 Labels à ajouter
-severity = critical high medium low
-attack_type = ddos privilege_escalation phishing brute_force normal
-
-📤 Sortie
-data/dataset_labellise.jsonl
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🟩 ETAPE 3 — PRETRAITEMENT ET PREPARATION DU DATASET
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🎯 But
-Transformer les logs en données exploitables par le modèle ML
-
-⚙ Actions
-🧹 Nettoyage
-❓ Valeurs manquantes
-🧩 Sélection champs utiles
-🔤 Encodage (catégoriel)
-📝 Vectorisation texte si besoin (TF-IDF)
-📅 Extraction features depuis timestamp
-
-📤 Sortie
-data/dataset_train.csv
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🟪 ETAPE 4 — ENTRAINEMENT DU MODELE
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🎯 But
-Entraîner un modèle de classification
-
-⚙ Actions
-📊 Split Train Test
-🧠 Training du modèle
-💾 Sauvegarde du modèle et du preprocessing
-
-📤 Sortie
-models/model.pkl
-models/preprocessor.pkl
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🟥 ETAPE 5 — EVALUATION
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🎯 But
-Mesurer la performance du modèle
-
-📈 Métriques
-Accuracy
-Precision
-Recall
-F1 Score
-Confusion Matrix
-
-📤 Sortie
-data/results/metrics.json
-data/results/report.txt
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🟫 ETAPE 6 — VERSIONNING ET SAUVEGARDE
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🎯 But
-Préparer un modèle stable et réutilisable pour l’intégration future
-
-📦 À sauvegarder
-model_v1.pkl
-preprocessor_v1.pkl
-features_used.json
-model_version.txt
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-📌 CE QUE TU DOIS FAIRE MAINTENANT (CONCRET)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-1 ✅ Générer logs_simules.jsonl (format Wazuh complet)
-2 ✅ Ajouter labels severity + attack_type
-3 ✅ Transformer en dataset_train.csv (features + labels)
-4 ✅ Entraîner un modèle baseline
-5 ✅ Évaluer et sauvegarder modèle + preprocessing
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
+Notes
+- The pipeline is robust to missing columns in input CSVs.
+- Timestamp features: hour, dayofweek, month.
+- Text features are built from available columns (rule.description, raw, commandLine, location, etc.).
