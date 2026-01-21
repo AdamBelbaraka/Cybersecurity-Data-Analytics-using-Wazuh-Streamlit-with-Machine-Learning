@@ -1,0 +1,30 @@
+[
+  {
+    "model": "LogReg baseline",
+    "accuracy": 0.9664324746291959,
+    "balanced_accuracy": 0.9224897876992117,
+    "f1_macro": 0.8888927324667435,
+    "f1_weighted": 0.9674445374028012
+  },
+  {
+    "model": "LogReg tuned",
+    "accuracy": 0.8665105386416861,
+    "balanced_accuracy": 0.5724450316845734,
+    "f1_macro": 0.560845749709565,
+    "f1_weighted": 0.8657568438398566
+  },
+  {
+    "model": "RandomForest tuned",
+    "accuracy": 0.8758782201405152,
+    "balanced_accuracy": 0.887775348560689,
+    "f1_macro": 0.8408602738487123,
+    "f1_weighted": 0.8881204688803574
+  },
+  {
+    "model": "XGBoost tuned",
+    "accuracy": 0.9391100702576113,
+    "balanced_accuracy": 0.8969671863912703,
+    "f1_macro": 0.8890860407983696,
+    "f1_weighted": 0.9416080315313577
+  }
+]

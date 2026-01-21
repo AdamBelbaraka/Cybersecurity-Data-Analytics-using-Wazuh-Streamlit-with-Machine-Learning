@@ -5,10 +5,13 @@ import logging
 from datetime import datetime, timedelta
 from pathlib import Path
 from pipeline1 import ingest_csv_and_dump, train_and_save_best_model, CUSTOM_INDEX
-from pipeline2 import run_prediction_cycle
+from pipeline2 import HEADERS, run_prediction_cycle
 
+#  for tests
+# import requests
+# from requests.auth import HTTPBasicAuth
 
-
+# auth = HTTPBasicAuth("admin", "adminAdmin1*")
 # ==========================================================
 # CONFIGURATION 
 # ==========================================================
@@ -69,6 +72,9 @@ def check_file_exists(path, label):
 # ===================================
 
 def main():
+
+
+
     setup_logging()
     ensure_folders()
 
@@ -85,6 +91,11 @@ def main():
     # Étape 2 : Ingestion + dump dataset
     # -------------------------------
     logging.info("-  Étape 1/3 : Ingestion CSV + export dataset...")
+
+# testing
+    # resp = requests.get(BASE_URL, auth=auth, headers=HEADERS, verify=False)
+    # print(" - Wazuh Indexer status:", resp.status_code, resp.text)
+
     ingest_csv_and_dump(
         CSV_FILE=CSV_FILE,
         index_name=CUSTOM_INDEX,
@@ -96,14 +107,21 @@ def main():
     # Étape 3 : Entraînement ML
     # -------------------------------
     logging.info("-  Étape 2/3 : Entraînement ML...")
-    model_path, metrics = train_and_save_best_model(
-        dataset_path=EXPORT_PATH,
-        output_model_path=MODEL_PATH,
-        output_metrics_path=METRICS_PATH,
+    # model_path, metrics = train_and_save_best_model(
+    #     dataset_path=EXPORT_PATH,
+    #     output_model_path=MODEL_PATH,
+    #     output_metrics_path=METRICS_PATH,
+    # )
+
+    model_path, metrics,_,_,_,_  = train_and_save_best_model(
+        data_path=EXPORT_PATH,
+        models_dir=MODEL_PATH
     )
 
-    check_file_exists(model_path, "Modèle ML sauvegardé")
-    check_file_exists(METRICS_PATH, "Métriques sauvegardées")
+
+    # to add check files exist !!!!!! 
+    # check_file_exists(model_path, "Modèle ML sauvegardé")
+    # check_file_exists(METRICS_PATH, "Métriques sauvegardées")
 
     logging.info(f" - Modèle entraîné et sauvegardé : {model_path}")
     logging.info(f" - Métriques : {json.dumps(metrics, indent=2)}")
@@ -115,7 +133,7 @@ def main():
 
     last_ts = (datetime.utcnow() - timedelta(hours=LAST_HOURS)).isoformat()
 
-    preds = run_prediction_cycle(
+    preds , _ ,  numberPreds = run_prediction_cycle(
         model_path=model_path,
         base_url=BASE_URL,
         username=USERNAME,
@@ -126,7 +144,11 @@ def main():
         size=SIZE,
     )
 
-    logging.info(f" - Nombre de prédictions réalisées : {len(preds)}")
+
+
+    logging.info(f" - Nombre de prédictions réalisées : {numberPreds}")
+
+ 
 
     logging.info("======================================")
     logging.info("-  PIPELINE TERMINÉ AVEC SUCCÈS")

@@ -805,3 +805,461 @@
 2026-01-21 13:07:23,170 | INFO | ======================================
 2026-01-21 13:07:23,170 | INFO | -  PIPELINE TERMINÉ AVEC SUCCÈS
 2026-01-21 13:07:23,171 | INFO | ======================================
+2026-01-21 14:02:29,852 | INFO | ======================================
+2026-01-21 14:02:29,853 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 14:02:29,853 | INFO | ======================================
+2026-01-21 14:02:29,854 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 14:02:29,854 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 14:03:12,322 | INFO | ======================================
+2026-01-21 14:03:12,323 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 14:03:12,324 | INFO | ======================================
+2026-01-21 14:03:12,324 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 14:03:12,325 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 14:03:57,218 | INFO | ======================================
+2026-01-21 14:03:57,218 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 14:03:57,219 | INFO | ======================================
+2026-01-21 14:03:57,219 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 14:03:57,219 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 14:05:02,878 | INFO | ======================================
+2026-01-21 14:05:02,878 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 14:05:02,879 | INFO | ======================================
+2026-01-21 14:05:02,879 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 14:05:02,880 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 14:07:15,917 | INFO | ======================================
+2026-01-21 14:07:15,917 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 14:07:15,917 | INFO | ======================================
+2026-01-21 14:07:15,918 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 14:07:15,918 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 14:10:28,445 | INFO | ======================================
+2026-01-21 14:10:28,445 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 14:10:28,446 | INFO | ======================================
+2026-01-21 14:10:28,446 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 14:10:28,446 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 14:11:17,018 | INFO | ======================================
+2026-01-21 14:11:17,019 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 14:11:17,019 | INFO | ======================================
+2026-01-21 14:11:17,019 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 14:11:17,019 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 14:12:11,984 | INFO | ======================================
+2026-01-21 14:12:11,985 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 14:12:11,985 | INFO | ======================================
+2026-01-21 14:12:11,986 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 14:12:11,987 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 14:16:13,704 | INFO | ======================================
+2026-01-21 14:16:13,704 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 14:16:13,704 | INFO | ======================================
+2026-01-21 14:16:13,704 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 14:16:13,705 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 14:18:43,035 | INFO | ======================================
+2026-01-21 14:18:43,036 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 14:18:43,036 | INFO | ======================================
+2026-01-21 14:18:43,037 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 14:18:43,037 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 14:19:06,814 | INFO | ======================================
+2026-01-21 14:19:06,814 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 14:19:06,815 | INFO | ======================================
+2026-01-21 14:19:06,816 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 14:19:06,816 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 14:33:26,575 | INFO | ======================================
+2026-01-21 14:33:26,576 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 14:33:26,576 | INFO | ======================================
+2026-01-21 14:33:26,577 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 14:33:26,577 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 14:34:15,142 | INFO | ======================================
+2026-01-21 14:34:15,143 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 14:34:15,143 | INFO | ======================================
+2026-01-21 14:34:15,144 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 14:34:15,144 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 14:35:26,214 | INFO | ======================================
+2026-01-21 14:35:26,214 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 14:35:26,215 | INFO | ======================================
+2026-01-21 14:35:26,215 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 14:35:26,215 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 14:35:54,897 | INFO |  - Dataset exporté trouvé : exports/index_dump_auto.csv
+2026-01-21 14:35:54,897 | INFO | -  Étape 2/3 : Entraînement ML...
+2026-01-21 14:36:06,132 | INFO |  - Modèle ML sauvegardé trouvé : models\best_severity_model.joblib
+2026-01-21 14:36:06,133 | INFO |  - Métriques sauvegardées trouvé : models/severity_metrics.json
+2026-01-21 14:36:06,134 | INFO |  - Modèle entraîné et sauvegardé : models\best_severity_model.joblib
+2026-01-21 14:36:06,134 | INFO |  - Métriques : {
+  "f1_macro": 0.9582143055312617,
+  "class_labels": [
+    "critical",
+    "high",
+    "low",
+    "medium"
+  ]
+}
+2026-01-21 14:36:06,135 | INFO | -  Étape 3/3 : Prédiction sur Wazuh Indexer...
+2026-01-21 14:36:13,565 | INFO |  - Nombre de prédictions réalisées : 2
+2026-01-21 14:36:13,567 | INFO | ======================================
+2026-01-21 14:36:13,567 | INFO | -  PIPELINE TERMINÉ AVEC SUCCÈS
+2026-01-21 14:36:13,567 | INFO | ======================================
+2026-01-21 14:37:18,093 | INFO | ======================================
+2026-01-21 14:37:18,094 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 14:37:18,094 | INFO | ======================================
+2026-01-21 14:37:18,094 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 14:37:18,095 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 14:37:28,111 | INFO |  - Dataset exporté trouvé : exports/index_dump_auto.csv
+2026-01-21 14:37:28,112 | INFO | -  Étape 2/3 : Entraînement ML...
+2026-01-21 14:37:35,964 | INFO |  - Modèle ML sauvegardé trouvé : models\best_severity_model.joblib
+2026-01-21 14:37:35,965 | INFO |  - Métriques sauvegardées trouvé : models/severity_metrics.json
+2026-01-21 14:37:35,965 | INFO |  - Modèle entraîné et sauvegardé : models\best_severity_model.joblib
+2026-01-21 14:37:35,965 | INFO |  - Métriques : {
+  "f1_macro": 0.9611362440538372,
+  "class_labels": [
+    "critical",
+    "high",
+    "low",
+    "medium"
+  ]
+}
+2026-01-21 14:37:35,965 | INFO | -  Étape 3/3 : Prédiction sur Wazuh Indexer...
+2026-01-21 14:37:42,134 | INFO |  - Nombre de prédictions réalisées : 2
+2026-01-21 14:37:42,134 | INFO | ======================================
+2026-01-21 14:37:42,135 | INFO | -  PIPELINE TERMINÉ AVEC SUCCÈS
+2026-01-21 14:37:42,135 | INFO | ======================================
+2026-01-21 14:42:43,117 | INFO | ======================================
+2026-01-21 14:42:43,118 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 14:42:43,118 | INFO | ======================================
+2026-01-21 14:42:43,118 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 14:42:43,119 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 14:42:55,032 | INFO |  - Dataset exporté trouvé : exports/index_dump_auto.csv
+2026-01-21 14:42:55,033 | INFO | -  Étape 2/3 : Entraînement ML...
+2026-01-21 14:43:06,894 | INFO |  - Modèle ML sauvegardé trouvé : models\best_severity_model.joblib
+2026-01-21 14:43:06,895 | INFO |  - Métriques sauvegardées trouvé : models/severity_metrics.json
+2026-01-21 14:43:06,896 | INFO |  - Modèle entraîné et sauvegardé : models\best_severity_model.joblib
+2026-01-21 14:43:06,896 | INFO |  - Métriques : {
+  "f1_macro": 0.97549367921894,
+  "class_labels": [
+    "critical",
+    "high",
+    "low",
+    "medium"
+  ]
+}
+2026-01-21 14:43:06,897 | INFO | -  Étape 3/3 : Prédiction sur Wazuh Indexer...
+2026-01-21 14:43:14,918 | INFO |  - Nombre de prédictions réalisées : 2
+2026-01-21 14:43:14,919 | INFO | ======================================
+2026-01-21 14:43:14,919 | INFO | -  PIPELINE TERMINÉ AVEC SUCCÈS
+2026-01-21 14:43:14,919 | INFO | ======================================
+2026-01-21 14:46:36,615 | INFO | ======================================
+2026-01-21 14:46:36,615 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 14:46:36,615 | INFO | ======================================
+2026-01-21 14:46:36,615 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 14:46:36,616 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 14:46:50,371 | INFO |  - Dataset exporté trouvé : exports/index_dump_auto.csv
+2026-01-21 14:46:50,371 | INFO | -  Étape 2/3 : Entraînement ML...
+2026-01-21 14:47:03,918 | INFO |  - Modèle ML sauvegardé trouvé : models\best_severity_model.joblib
+2026-01-21 14:47:03,920 | INFO |  - Métriques sauvegardées trouvé : models/severity_metrics.json
+2026-01-21 14:47:03,921 | INFO |  - Modèle entraîné et sauvegardé : models\best_severity_model.joblib
+2026-01-21 14:47:03,922 | INFO |  - Métriques : {
+  "f1_macro": 0.9725415097983152,
+  "class_labels": [
+    "critical",
+    "high",
+    "low",
+    "medium"
+  ]
+}
+2026-01-21 14:47:03,924 | INFO | -  Étape 3/3 : Prédiction sur Wazuh Indexer...
+2026-01-21 14:47:14,061 | INFO |  - Nombre de prédictions réalisées : 2
+2026-01-21 14:47:14,062 | INFO | ======================================
+2026-01-21 14:47:14,062 | INFO | -  PIPELINE TERMINÉ AVEC SUCCÈS
+2026-01-21 14:47:14,063 | INFO | ======================================
+2026-01-21 14:49:26,022 | INFO | ======================================
+2026-01-21 14:49:26,023 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 14:49:26,023 | INFO | ======================================
+2026-01-21 14:49:26,024 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 14:49:26,024 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 14:49:38,418 | INFO |  - Dataset exporté trouvé : exports/index_dump_auto.csv
+2026-01-21 14:49:38,419 | INFO | -  Étape 2/3 : Entraînement ML...
+2026-01-21 14:49:49,236 | INFO |  - Modèle ML sauvegardé trouvé : models\best_severity_model.joblib
+2026-01-21 14:49:49,236 | INFO |  - Métriques sauvegardées trouvé : models/severity_metrics.json
+2026-01-21 14:49:49,237 | INFO |  - Modèle entraîné et sauvegardé : models\best_severity_model.joblib
+2026-01-21 14:49:49,238 | INFO |  - Métriques : {
+  "f1_macro": 0.9657480947527532,
+  "class_labels": [
+    "critical",
+    "high",
+    "low",
+    "medium"
+  ]
+}
+2026-01-21 14:49:49,240 | INFO | -  Étape 3/3 : Prédiction sur Wazuh Indexer...
+2026-01-21 14:50:01,964 | INFO |  - Nombre de prédictions réalisées : 2
+2026-01-21 14:50:01,964 | INFO | ======================================
+2026-01-21 14:50:01,964 | INFO | -  PIPELINE TERMINÉ AVEC SUCCÈS
+2026-01-21 14:50:01,964 | INFO | ======================================
+2026-01-21 15:12:50,407 | INFO | ======================================
+2026-01-21 15:12:50,407 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 15:12:50,408 | INFO | ======================================
+2026-01-21 15:12:50,408 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 15:12:50,408 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 15:12:59,899 | INFO |  - Dataset exporté trouvé : exports/index_dump_auto.csv
+2026-01-21 15:12:59,900 | INFO | -  Étape 2/3 : Entraînement ML...
+2026-01-21 15:13:07,339 | INFO |  - Modèle ML sauvegardé trouvé : models\best_severity_model.joblib
+2026-01-21 15:13:07,339 | INFO |  - Métriques sauvegardées trouvé : models/severity_metrics.json
+2026-01-21 15:13:07,339 | INFO |  - Modèle entraîné et sauvegardé : models\best_severity_model.joblib
+2026-01-21 15:13:07,340 | INFO |  - Métriques : {
+  "f1_macro": 0.9614171647066384,
+  "class_labels": [
+    "critical",
+    "high",
+    "low",
+    "medium"
+  ]
+}
+2026-01-21 15:13:07,340 | INFO | -  Étape 3/3 : Prédiction sur Wazuh Indexer...
+2026-01-21 15:13:13,413 | INFO |  - Nombre de prédictions réalisées : 2
+2026-01-21 15:13:13,413 | INFO | ======================================
+2026-01-21 15:13:13,413 | INFO | -  PIPELINE TERMINÉ AVEC SUCCÈS
+2026-01-21 15:13:13,413 | INFO | ======================================
+2026-01-21 15:15:32,313 | INFO | ======================================
+2026-01-21 15:15:32,314 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 15:15:32,314 | INFO | ======================================
+2026-01-21 15:15:32,315 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 15:15:32,315 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 15:15:44,060 | INFO |  - Dataset exporté trouvé : exports/index_dump_auto.csv
+2026-01-21 15:15:44,060 | INFO | -  Étape 2/3 : Entraînement ML...
+2026-01-21 15:15:53,975 | INFO |  - Modèle ML sauvegardé trouvé : models\best_severity_model.joblib
+2026-01-21 15:15:53,976 | INFO |  - Métriques sauvegardées trouvé : models/severity_metrics.json
+2026-01-21 15:15:53,976 | INFO |  - Modèle entraîné et sauvegardé : models\best_severity_model.joblib
+2026-01-21 15:15:53,976 | INFO |  - Métriques : {
+  "f1_macro": 0.9564374098594307,
+  "class_labels": [
+    "critical",
+    "high",
+    "low",
+    "medium"
+  ]
+}
+2026-01-21 15:15:53,977 | INFO | -  Étape 3/3 : Prédiction sur Wazuh Indexer...
+2026-01-21 15:16:02,940 | INFO |  - Nombre de prédictions réalisées : 2
+2026-01-21 15:16:02,940 | INFO | ======================================
+2026-01-21 15:16:02,940 | INFO | -  PIPELINE TERMINÉ AVEC SUCCÈS
+2026-01-21 15:16:02,940 | INFO | ======================================
+2026-01-21 15:41:53,453 | INFO | ======================================
+2026-01-21 15:41:53,453 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 15:41:53,454 | INFO | ======================================
+2026-01-21 15:41:53,454 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 15:41:53,454 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 15:42:13,715 | INFO | ======================================
+2026-01-21 15:42:13,715 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 15:42:13,716 | INFO | ======================================
+2026-01-21 15:42:13,716 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 15:42:13,716 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 15:43:17,069 | INFO | ======================================
+2026-01-21 15:43:17,069 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 15:43:17,069 | INFO | ======================================
+2026-01-21 15:43:17,070 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 15:43:17,070 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 15:44:54,316 | INFO | ======================================
+2026-01-21 15:44:54,316 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 15:44:54,317 | INFO | ======================================
+2026-01-21 15:44:54,317 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 15:44:54,318 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 15:46:13,771 | INFO | ======================================
+2026-01-21 15:46:13,772 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 15:46:13,772 | INFO | ======================================
+2026-01-21 15:46:13,773 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 15:46:13,773 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 15:46:21,563 | INFO |  - Dataset exporté trouvé : exports/index_dump_auto.csv
+2026-01-21 15:46:21,563 | INFO | -  Étape 2/3 : Entraînement ML...
+2026-01-21 15:46:28,584 | INFO |  - Modèle ML sauvegardé trouvé : models\best_severity_model.joblib
+2026-01-21 15:46:28,584 | INFO |  - Métriques sauvegardées trouvé : models/severity_metrics.json
+2026-01-21 15:46:28,585 | INFO |  - Modèle entraîné et sauvegardé : models\best_severity_model.joblib
+2026-01-21 15:46:28,585 | INFO |  - Métriques : {
+  "f1_macro": 0.957850514101023,
+  "class_labels": [
+    "critical",
+    "high",
+    "low",
+    "medium"
+  ]
+}
+2026-01-21 15:46:28,585 | INFO | -  Étape 3/3 : Prédiction sur Wazuh Indexer...
+2026-01-21 15:46:35,148 | INFO |  - Nombre de prédictions réalisées : 2
+2026-01-21 15:46:35,148 | INFO | ======================================
+2026-01-21 15:46:35,149 | INFO | -  PIPELINE TERMINÉ AVEC SUCCÈS
+2026-01-21 15:46:35,149 | INFO | ======================================
+2026-01-21 15:48:23,771 | INFO | ======================================
+2026-01-21 15:48:23,771 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 15:48:23,771 | INFO | ======================================
+2026-01-21 15:48:23,772 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 15:48:23,772 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 15:48:31,421 | INFO |  - Dataset exporté trouvé : exports/index_dump_auto.csv
+2026-01-21 15:48:31,422 | INFO | -  Étape 2/3 : Entraînement ML...
+2026-01-21 15:48:38,779 | INFO |  - Modèle ML sauvegardé trouvé : models\best_severity_model.joblib
+2026-01-21 15:48:38,779 | INFO |  - Métriques sauvegardées trouvé : models/severity_metrics.json
+2026-01-21 15:48:38,780 | INFO |  - Modèle entraîné et sauvegardé : models\best_severity_model.joblib
+2026-01-21 15:48:38,780 | INFO |  - Métriques : {
+  "f1_macro": 0.9582717603080352,
+  "class_labels": [
+    "critical",
+    "high",
+    "low",
+    "medium"
+  ]
+}
+2026-01-21 15:48:38,781 | INFO | -  Étape 3/3 : Prédiction sur Wazuh Indexer...
+2026-01-21 15:48:44,751 | INFO |  - Nombre de prédictions réalisées : 2
+2026-01-21 15:48:44,752 | INFO | ======================================
+2026-01-21 15:48:44,752 | INFO | -  PIPELINE TERMINÉ AVEC SUCCÈS
+2026-01-21 15:48:44,753 | INFO | ======================================
+2026-01-21 15:52:30,757 | INFO | ======================================
+2026-01-21 15:52:30,757 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 15:52:30,757 | INFO | ======================================
+2026-01-21 15:52:30,759 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 15:52:30,759 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 15:52:39,415 | INFO |  - Dataset exporté trouvé : exports/index_dump_auto.csv
+2026-01-21 15:52:39,416 | INFO | -  Étape 2/3 : Entraînement ML...
+2026-01-21 15:52:47,270 | INFO |  - Modèle ML sauvegardé trouvé : models\best_severity_model.joblib
+2026-01-21 15:52:47,271 | INFO |  - Métriques sauvegardées trouvé : models/severity_metrics.json
+2026-01-21 15:52:47,272 | INFO |  - Modèle entraîné et sauvegardé : models\best_severity_model.joblib
+2026-01-21 15:52:47,272 | INFO |  - Métriques : {
+  "f1_macro": 0.9599865254640079,
+  "class_labels": [
+    "critical",
+    "high",
+    "low",
+    "medium"
+  ]
+}
+2026-01-21 15:52:47,272 | INFO | -  Étape 3/3 : Prédiction sur Wazuh Indexer...
+2026-01-21 15:52:53,171 | INFO |  - Nombre de prédictions réalisées : 3
+2026-01-21 15:52:53,172 | INFO | ======================================
+2026-01-21 15:52:53,172 | INFO | -  PIPELINE TERMINÉ AVEC SUCCÈS
+2026-01-21 15:52:53,173 | INFO | ======================================
+2026-01-21 15:57:09,879 | INFO | ======================================
+2026-01-21 15:57:09,880 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 15:57:09,880 | INFO | ======================================
+2026-01-21 15:57:09,881 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 15:57:09,881 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 15:57:18,402 | INFO |  - Dataset exporté trouvé : exports/index_dump_auto.csv
+2026-01-21 15:57:18,402 | INFO | -  Étape 2/3 : Entraînement ML...
+2026-01-21 15:57:25,373 | INFO |  - Modèle ML sauvegardé trouvé : models\best_severity_model.joblib
+2026-01-21 15:57:25,375 | INFO |  - Métriques sauvegardées trouvé : models/severity_metrics.json
+2026-01-21 15:57:25,375 | INFO |  - Modèle entraîné et sauvegardé : models\best_severity_model.joblib
+2026-01-21 15:57:25,376 | INFO |  - Métriques : {
+  "f1_macro": 0.9663014699086959,
+  "class_labels": [
+    "critical",
+    "high",
+    "low",
+    "medium"
+  ]
+}
+2026-01-21 15:57:25,376 | INFO | -  Étape 3/3 : Prédiction sur Wazuh Indexer...
+2026-01-21 15:57:32,455 | INFO |  - Nombre de prédictions réalisées : 500
+2026-01-21 15:57:32,455 | INFO | ======================================
+2026-01-21 15:57:32,456 | INFO | -  PIPELINE TERMINÉ AVEC SUCCÈS
+2026-01-21 15:57:32,456 | INFO | ======================================
+2026-01-21 18:30:32,325 | INFO | ======================================
+2026-01-21 18:30:32,325 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 18:30:32,326 | INFO | ======================================
+2026-01-21 18:30:32,326 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 18:30:32,327 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 18:30:40,107 | INFO |  - Dataset exporté trouvé : exports/index_dump_auto.csv
+2026-01-21 18:30:40,107 | INFO | -  Étape 2/3 : Entraînement ML...
+2026-01-21 18:30:47,536 | INFO |  - Modèle ML sauvegardé trouvé : models\best_severity_model.joblib
+2026-01-21 18:30:47,536 | INFO |  - Métriques sauvegardées trouvé : models/severity_metrics.json
+2026-01-21 18:30:47,537 | INFO |  - Modèle entraîné et sauvegardé : models\best_severity_model.joblib
+2026-01-21 18:30:47,537 | INFO |  - Métriques : {
+  "f1_macro": 0.9653667994017028,
+  "class_labels": [
+    "critical",
+    "high",
+    "low",
+    "medium"
+  ]
+}
+2026-01-21 18:30:47,538 | INFO | -  Étape 3/3 : Prédiction sur Wazuh Indexer...
+2026-01-21 18:30:53,821 | INFO |  - Nombre de prédictions réalisées : 500
+2026-01-21 18:30:53,821 | INFO | ======================================
+2026-01-21 18:30:53,822 | INFO | -  PIPELINE TERMINÉ AVEC SUCCÈS
+2026-01-21 18:30:53,822 | INFO | ======================================
+2026-01-21 18:33:05,661 | INFO | ======================================
+2026-01-21 18:33:05,662 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 18:33:05,662 | INFO | ======================================
+2026-01-21 18:33:05,663 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 18:33:05,663 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 18:33:13,429 | INFO |  - Dataset exporté trouvé : exports/index_dump_auto.csv
+2026-01-21 18:33:13,429 | INFO | -  Étape 2/3 : Entraînement ML...
+2026-01-21 18:33:51,470 | INFO | ======================================
+2026-01-21 18:33:51,472 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 18:33:51,472 | INFO | ======================================
+2026-01-21 18:33:51,473 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 18:33:51,474 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 18:33:59,404 | INFO |  - Dataset exporté trouvé : exports/index_dump_auto.csv
+2026-01-21 18:33:59,404 | INFO | -  Étape 2/3 : Entraînement ML...
+2026-01-21 18:34:53,372 | INFO | ======================================
+2026-01-21 18:34:53,373 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 18:34:53,373 | INFO | ======================================
+2026-01-21 18:34:53,373 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 18:34:53,373 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 18:35:01,027 | INFO |  - Dataset exporté trouvé : exports/index_dump_auto.csv
+2026-01-21 18:35:01,027 | INFO | -  Étape 2/3 : Entraînement ML...
+2026-01-21 18:36:44,413 | INFO | ======================================
+2026-01-21 18:36:44,413 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 18:36:44,413 | INFO | ======================================
+2026-01-21 18:36:44,413 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 18:36:44,413 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 18:36:52,980 | INFO |  - Dataset exporté trouvé : exports/index_dump_auto.csv
+2026-01-21 18:36:52,980 | INFO | -  Étape 2/3 : Entraînement ML...
+2026-01-21 18:54:14,028 | INFO | ======================================
+2026-01-21 18:54:14,028 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 18:54:14,028 | INFO | ======================================
+2026-01-21 18:54:14,029 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 18:54:14,029 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 18:54:24,044 | INFO |  - Dataset exporté trouvé : exports/index_dump_auto.csv
+2026-01-21 18:54:24,044 | INFO | -  Étape 2/3 : Entraînement ML...
+2026-01-21 19:00:04,884 | INFO | ======================================
+2026-01-21 19:00:04,884 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 19:00:04,884 | INFO | ======================================
+2026-01-21 19:00:04,885 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 19:00:04,885 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 19:00:15,043 | INFO |  - Dataset exporté trouvé : exports/index_dump_auto.csv
+2026-01-21 19:00:15,043 | INFO | -  Étape 2/3 : Entraînement ML...
+2026-01-21 19:02:17,166 | ERROR |  -  Métriques sauvegardées introuvable : models/severity_metrics.json
+2026-01-21 19:12:06,492 | INFO | ======================================
+2026-01-21 19:12:06,494 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 19:12:06,495 | INFO | ======================================
+2026-01-21 19:12:06,495 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 19:12:06,495 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 19:12:13,923 | INFO |  - Dataset exporté trouvé : exports/index_dump_auto.csv
+2026-01-21 19:12:13,923 | INFO | -  Étape 2/3 : Entraînement ML...
+2026-01-21 19:14:03,870 | ERROR |  -  Métriques sauvegardées introuvable : models/severity_metrics.json
+2026-01-21 19:43:53,679 | INFO | ======================================
+2026-01-21 19:43:53,680 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 19:43:53,680 | INFO | ======================================
+2026-01-21 19:43:53,681 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 19:43:53,681 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 19:44:02,642 | INFO |  - Dataset exporté trouvé : exports/index_dump_auto.csv
+2026-01-21 19:44:02,642 | INFO | -  Étape 2/3 : Entraînement ML...
+2026-01-21 19:46:05,871 | INFO |  - Modèle entraîné et sauvegardé : model_path
+2026-01-21 19:46:05,873 | INFO |  - Métriques : "metrics_path"
+2026-01-21 19:46:05,874 | INFO | -  Étape 3/3 : Prédiction sur Wazuh Indexer...
+2026-01-21 19:57:28,814 | INFO | ======================================
+2026-01-21 19:57:28,815 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 19:57:28,815 | INFO | ======================================
+2026-01-21 19:57:28,815 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 19:57:28,815 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 19:57:37,237 | INFO |  - Dataset exporté trouvé : exports/index_dump_auto.csv
+2026-01-21 19:57:37,237 | INFO | -  Étape 2/3 : Entraînement ML...
+2026-01-21 19:59:26,139 | INFO |  - Modèle entraîné et sauvegardé : model_path
+2026-01-21 19:59:26,139 | INFO |  - Métriques : "metrics_path"
+2026-01-21 19:59:26,139 | INFO | -  Étape 3/3 : Prédiction sur Wazuh Indexer...
+2026-01-21 20:01:52,554 | INFO | ======================================
+2026-01-21 20:01:52,554 | INFO |  DÉMARRAGE PIPELINE AUTOMATISÉ
+2026-01-21 20:01:52,554 | INFO | ======================================
+2026-01-21 20:01:52,555 | INFO |  - CSV d'entrée trouvé : wazuh_logs.csv
+2026-01-21 20:01:52,555 | INFO | -  Étape 1/3 : Ingestion CSV + export dataset...
+2026-01-21 20:02:02,021 | INFO |  - Dataset exporté trouvé : exports/index_dump_auto.csv
+2026-01-21 20:02:02,021 | INFO | -  Étape 2/3 : Entraînement ML...
+2026-01-21 20:03:54,501 | INFO |  - Modèle entraîné et sauvegardé : model_path
+2026-01-21 20:03:54,502 | INFO |  - Métriques : "metrics_path"
+2026-01-21 20:03:54,504 | INFO | -  Étape 3/3 : Prédiction sur Wazuh Indexer...
+2026-01-21 20:03:56,795 | INFO |  - Nombre de prédictions réalisées : 500
+2026-01-21 20:03:56,796 | INFO | ======================================
+2026-01-21 20:03:56,797 | INFO | -  PIPELINE TERMINÉ AVEC SUCCÈS
+2026-01-21 20:03:56,798 | INFO | ======================================
