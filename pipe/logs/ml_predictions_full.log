@@ -1,0 +1,10 @@
+{"@timestamp": "2025-12-30T17:34:42.022Z", "event_type": "ml_prediction", "ml_label": "2", "risk_score": 0.8965588012489478, "ml_model": "best_severity_model", "agent": {"id": "000", "name": "wazuh-server"}}
+{"@timestamp": "2025-12-30T17:34:42.022Z", "event_type": "ml_prediction", "ml_label": "2", "risk_score": 0.8965588012489478, "ml_model": "best_severity_model", "agent": {"id": "000", "name": "wazuh-server"}}
+{"@timestamp": "2025-12-30T17:34:42.022Z", "event_type": "ml_prediction", "ml_label": "2", "risk_score": 0.8965588012489478, "ml_model": "best_severity_model", "agent": {"id": "000", "name": "wazuh-server"}}
+{"@timestamp": "2025-12-30T17:34:42.022Z", "event_type": "ml_prediction", "ml_label": "2", "risk_score": 0.8965588012489478, "ml_model": "best_severity_model", "agent": {"id": "000", "name": "wazuh-server"}}
+{"@timestamp": "2025-12-30T17:34:42.022Z", "event_type": "ml_prediction", "ml_label": "2", "risk_score": 0.8965588012489478, "ml_model": "best_severity_model", "agent": {"id": "000", "name": "wazuh-server"}}
+{"@timestamp": "2025-12-30T17:34:42.022Z", "event_type": "ml_prediction", "ml_label": "2", "risk_score": 0.8965588012489478, "ml_model": "best_severity_model", "agent": {"id": "000", "name": "wazuh-server"}}
+{"@timestamp": "2025-12-30T17:34:42.022Z", "event_type": "ml_prediction", "ml_label": "2", "risk_score": 0.8965588012489478, "ml_model": "best_severity_model", "agent": {"id": "000", "name": "wazuh-server"}}
+{"@timestamp": "2025-12-30T17:34:42.022Z", "event_type": "ml_prediction", "ml_label": "2", "risk_score": 0.8965588012489478, "ml_model": "best_severity_model", "agent": {"id": "000", "name": "wazuh-server"}}
+{"@timestamp": "2025-12-30T17:34:42.046Z", "event_type": "ml_prediction", "ml_label": "2", "risk_score": 0.8965588012489478, "ml_model": "best_severity_model", "agent": {"id": "000", "name": "wazuh-server"}}
+{"@timestamp": "2025-12-30T17:34:42.051Z", "event_type": "ml_prediction", "ml_label": "2", "risk_score": 0.8965588012489478, "ml_model": "best_severity_model", "agent": {"id": "000", "name": "wazuh-server"}}
